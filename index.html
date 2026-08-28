@@ -6,5 +6,35 @@
         <title>Alarm Clock</title>
         <link rel="stylesheet" href="style.css">
     </head>
-
+    <body>
+        <div class="wrapper">
+        <img src="alarm-clock.png">
+        <h1>5:30:00 PM</h1>
+        <div class="content">
+            <div class="column">
+                <select>
+                    <option value="Hour" selected hidden>Hour</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select>
+            </div>
+            <div class="column">
+                <select>
+                    <option value="Minute" selected hidden>Minute</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select>
+            </div>
+            <div class="column">
+                <select>
+                    <option value="AM/PM" selected hidden>AM/PM</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+                <button>Set Alarm Time</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
