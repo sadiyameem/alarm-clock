@@ -21,4 +21,5 @@
 - A challenge was getting the CSS to show the styling that I did but I learned to make sure everything is in order and in the same tree.
 
 # Image
-<img width="880" height="980" alt="Screenshot 2026-08-28 at 9 03 14 PM" src="https://github.com/user-attachments/assets/7250931f-d8a2-4031-8388-7c93c6d8ca75" />
+<img width="910" height="956" alt="Screenshot 2026-08-28 at 9 26 04 PM" src="https://github.com/user-attachments/assets/812d4e3d-f771-49b9-8be8-49d50a5eaf06" />
+
