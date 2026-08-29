@@ -1,12 +1,11 @@
 # Alarm Clock
 
 # Description
-- This is a simple alarm clock that displays the current time, that allows users to set a time through dropdown and lets users choose from different sounds.
+- This is a simple alarm clock that displays the current time, that allows users to set a time through dropdown and also includes an alarm sound.
 
 # Features
 - Current time
 - Set alarm time
-- Multiple alarm sounds
 - Set alarm button
 - Clear alarm button
 
