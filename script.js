@@ -4,7 +4,7 @@ const selectMenu = document.querySelectorAll("select");
 const setAlarmBtn = document.querySelector("button");
 
 let alarmTime, isAlarmSet = false;
-let ringtone = new Audio("audio/alarm-clock.mp3");
+let ringtone = new Audio("alarm-clock.mp3");
 
 for (let i = 12; i > 0; i--) {
     i = i < 10 ? "0" + i : i;
@@ -70,22 +70,3 @@ function setAlarm() {
 }
 
 setAlarmBtn.addEventListener("click", setAlarm);
-
-
-function initAudio() {
-    var audio, dir, ext, myList;
-    dir = "audio/";
-    ext = ".mp3"
-    audio = new Audio();
-    audio.src = dir+"alarm-clock"+ext;
-    audio.play();
-
-    var myList = document.getElementById("myList");
-    myList.addEventListener("change", changeTrack);
-
-    function changeTrack(event) {
-        audio.src = dir+event.target.value+ext;
-        audio.play();
-    }
-}
-window.addEventListener("load", initAudio);
